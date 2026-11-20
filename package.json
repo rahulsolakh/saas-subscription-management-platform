@@ -1,0 +1,17 @@
+{
+  "name": "saas-subscription-management-platform",
+  "version": "1.0.0",
+  "description": "A beginner-friendly SaaS subscription management platform built with Node.js, Express and PostgreSQL.",
+  "main": "server.js",
+  "scripts": {"start": "node server.js", "dev": "nodemon server.js", "db:init": "node db/init.js"},
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "dotenv": "^16.4.5",
+    "ejs": "^3.1.10",
+    "express": "^4.21.2",
+    "express-session": "^1.18.1",
+    "pg": "^8.13.1",
+    "stripe": "^17.5.0"
+  },
+  "devDependencies": {"nodemon": "^3.1.7"}
+}
